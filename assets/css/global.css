@@ -11,14 +11,27 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #fafafa;
+    border-right: 1px solid #a5a9b1;
+
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.container_detail {
+    width: 300px;
+    height: 100vh;
+
+    position: fixed;
+    right: 2%;
+    top: 0;
 }
 
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
         height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
+        /* margin: 1rem auto; */
     }
 }
